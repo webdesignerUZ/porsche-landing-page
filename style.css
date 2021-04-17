@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+}
+.body{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+}
+.back{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 99.5vh;
+    z-index: -1;
+    background-color: rgb(173,148,86);
+}
+
+header{
+    position: relative;
+    height: 14vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    height: 60px;
+    cursor: pointer;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li a{
+    margin: 0 28px;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    color: #fff;
+}
+header nav ul  i{
+    font-size: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.info-container{
+    position: relative;
+    height: 85vh;
+    width: 50%;
+    padding: 5% 0 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.info-container h1{
+    font-size: 80px;
+    letter-spacing: 1px;
+    color: #111;
+    font-family: 'RocknRoll One', sans-serif;
+}
+.info-container h2{
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-family: 'Train One', cursive;
+}
+.information{
+    transform: translateY(0px);
+}
+.information div{
+    margin: 30px 0;
+}
+.information div p{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.information div span{
+    text-transform: uppercase;
+    font-size: 26px;
+    color:  rgb(173,148,86) ;
+    font-weight: bold;
+}
+.discover{
+    position: absolute;
+    height: 10vh;
+    width: 30%;
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 1px solid #111;
+    background-color: #111;
+    color: #fff;
+}
+
+.image-container{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 30%;
+    height: 60%;
+    border-radius: 50%;
+}
+.left-image-container{
+    position: absolute;
+    left: 0%;
+    height: 440px;
+    width: 50%;
+    border-radius: 350px  0 0 350px;
+    background-color: rgb(10, 14, 15);
+}
+
+.right-image-container{
+    position: absolute;
+    right: 0%;
+    height: 440px;
+    width: 50%;
+    border-radius: 0 350px    350px 0;
+    background-color: #fff;
+}
+.image-container img{
+    position: absolute;
+    height: 360px;
+    transform: translateX(-90px) translateY(80px);
+}
+
+.contact{
+    position: absolute;
+    /* border: 1px solid #111; */
+    height: 20vh;
+    width: 40%;
+    bottom: 0;
+    right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1111;
+}
+.contact i{
+    cursor: pointer;
+    font-size: 30px;
+    margin: 0 30px;
+    color: #fff;
+}
